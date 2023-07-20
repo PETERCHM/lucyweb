@@ -1,0 +1,19 @@
+<!-- website_access.html -->
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Website Access</h2>
+  <p>You have successfully accessed the website: {{ website.name }}</p>
+
+   <!-- Include the Grammarly JavaScript integration code -->
+   <script src="https://www.grammarly.com/assets/grammarly.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <!-- Your website content here -->
+    <div id="grammarly-content">
+      <!-- Enclose the content you want Grammarly to analyze within this element -->
+      <h1>Welcome to My Website!</h1>
+      <p>This is an example paragraph with some text.</p>
+      <!-- Add more content as needed -->
+    </div>
+    
+{% endblock %}
